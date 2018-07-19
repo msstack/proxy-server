@@ -1,0 +1,13 @@
+server:
+  port: 4000
+
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+
+zuul:
+  routes:
+    order-service:
+      path: /order-service/**
+      serviceId: order-service
