@@ -4,7 +4,7 @@ server:
 spring:
   cloud:
     zookeeper:
-      connect-string: localhost:2181
+      connect-string: 139.59.77.98:2181
 
 zuul:
   routes:
